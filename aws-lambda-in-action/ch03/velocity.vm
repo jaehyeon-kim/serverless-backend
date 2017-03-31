@@ -1,0 +1,10 @@
+#### Integration Request **
+{
+    "myip": "$context.identity.sourceIp"
+}
+
+#### Integration Response **
+
+{
+    "myip": "$input.path('$')"
+}

@@ -1,0 +1,54 @@
+#### Integration Request **
+## /greeting **
+#set($name = $input.params('name'))
+{
+#if($name != "")
+    "name": "$name"
+#end
+}
+
+## /user/{username}/greet **
+#set($name = $input.params('username'))
+{
+#if($name != "")
+    "name": $name
+#end
+}
+
+## /say **
+#set($greet = $input.params('greet'))
+#set($name = $input.params('name'))
+{
+#if($greet != "")
+    "greet": "$greet"
+    #if($name != "")
+    ,
+    #end
+#end
+#if($name != "")
+    "name": "$name"
+#end
+}
+
+## /users/{username}/say/{greet} **
+#set($name = $input.params('username'))
+#set($greet = $input.params('greet'))
+{
+#if($greet != "")
+    "greet": "$greet"
+    #if($name != "")
+    ,
+    #end 
+#end
+#if($name != "")
+    "name": "$name"
+#end
+}
+
+#### Integration Response **
+{ "greeting": "$input.path('$')" }
+
+
+
+
+
