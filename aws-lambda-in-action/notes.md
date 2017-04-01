@@ -12,5 +12,5 @@
 
 #### curl
 * add double quotations if multiple query strings
-        - `curl "https://base-url/dev/say?name=Jaehyeon&greet=Hi"`
+..- `curl "https://base-url/dev/say?name=Jaehyeon&greet=Hi"`
 
