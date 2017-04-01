@@ -11,9 +11,9 @@ Sources to learn serverless event-driven application development.
 
 #### Framework/Library
 
-* [Serverless Framework](https://serverless.com/)
-        * [anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless)
-        * [JustServerless/awesome-serverless](https://github.com/JustServerless/awesome-serverless)
+- [Serverless Framework](https://serverless.com/)
+        - [anaibol/awesome-serverless](https://github.com/anaibol/awesome-serverless)
+        - [JustServerless/awesome-serverless](https://github.com/JustServerless/awesome-serverless)
 * [Chalice - Python Serverless Microframework for AWS](https://github.com/awslabs/chalice)
 
 
