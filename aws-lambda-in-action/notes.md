@@ -5,6 +5,7 @@
 * [DynamoDB access control](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/authentication-and-access-control.html)
 * [DynamoDB region](http://docs.aws.amazon.com/general/latest/gr/rande.html#ddb_region)
 * [Policy variables](http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_variables.html)
+* [Lambda Execution Environment and Available Libraries](http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html)
 
 #### commands
 * `aws lambda list-functions`
