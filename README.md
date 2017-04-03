@@ -17,3 +17,8 @@ Sources to learn serverless event-driven application development.
 * [Chalice - Python Serverless Microframework for AWS](https://github.com/awslabs/chalice)
 
 
+##### Tips
+
+* [Set Up a Custom Domain Name for an API Gateway API](Set Up a Custom Domain Name for an API Gateway API)
+    * [Registering Domain Names Using Amazon Route 53](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html)
+    * [Requesting and Managing ACM Certificates](http://docs.aws.amazon.com/acm/latest/userguide/gs-acm.html)
